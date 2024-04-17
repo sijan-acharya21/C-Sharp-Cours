@@ -17,5 +17,10 @@ Console.WriteLine("Formula One is sponsored by {0},{1} and {2}", brand1, brand2,
 
 decimal decimal1 = 0.54m, decimal2 = 1.54m, decmial3 = 2.54m;
 // {0,5} The 5 after the comma means the placeholder will take 5 characters
+// If the text is to be on the left hand side then do {0,-5}
 Console.WriteLine("Decimal 1 is {0,5}, number 2 is {1,5} and number 3 is {2,5}", decimal1, decimal2, decmial3); 
-            
+
+// Concatentation method
+int age = 20;
+string favouriteCar = "SRT Dodge Challenger";
+Console.WriteLine("Sijan Acharya is " + age + " years old and likes the car " + favouriteCar);
