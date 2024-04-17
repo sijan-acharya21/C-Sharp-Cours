@@ -1,0 +1,9 @@
+Ctrl + \, E => Error list
+Ctrl + K, Ctrl + C => Comment
+Ctrl + K, Ctrl + U => Uncomment
+
+Compile means code gets converted into machine code (0 and 1)
+High level means human readable
+Low level means language computer can understand (0's and 1's)
+
+C# sits in an intermediate language called the Common Intermediate Language until the code is executed
