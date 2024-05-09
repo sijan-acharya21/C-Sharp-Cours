@@ -28,5 +28,14 @@ Console.WriteLine($"The artist's name is {artist}");
 string singer1 = "Abel Tesfaye";
 string singer2 = "Micheal Jackson";
 int compareString = string.Compare(singer1, singer2);
-Console.WriteLine(compareString);
+Console.WriteLine(compareString); // -1
 
+string songName = "Kiss Land";
+string sameSong = "Kiss Land";
+int compareSong = string.Compare(songName, sameSong);
+Console.WriteLine(compareSong); // 0
+
+string letterB = "b";
+string letterA = "a";
+int compareLetters = string.Compare(letterB, letterA);
+Console.WriteLine(compareLetters) // 1
