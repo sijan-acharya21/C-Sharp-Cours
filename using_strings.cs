@@ -4,8 +4,9 @@ Console.WriteLine(myString); // Sijan \" Acharya
 string name1 = "Sijan";
 string name2 = "Sijan";
 
+// == returns a true or false value
 bool namesEqual = name1 == name2;
-Console.WriteLine("Names {0} and {1} are equal:  {2}", name1, name2, namesEqual);
+Console.WriteLine("Names {0} and {1} are equal:  {2}", name1, name2, namesEqual); // 
 
 string name3 = "Denzel";
 string name4 = "Samuel";
@@ -38,4 +39,15 @@ Console.WriteLine(compareSong); // 0
 string letterB = "b";
 string letterA = "a";
 int compareLetters = string.Compare(letterB, letterA);
-Console.WriteLine(compareLetters) // 1
+Console.WriteLine(compareLetters); // 1
+
+// CompareTo() function returns an integer (-1, 0 or 1) same as Compare method
+// string1.CompareTo(string2)
+string bestAlbum = "Starboy";
+string worstAlbum = "Trilogy";
+int compareAlbum = bestAlbum.CompareTo(worstAlbum);
+Console.WriteLine(compareAlbum); // -1
+
+// Length property returns the number of characters in the string
+string name = "Maria";
+Console.WriteLine("{0} has {1} characters", name, name.Length);
