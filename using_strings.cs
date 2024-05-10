@@ -51,3 +51,9 @@ Console.WriteLine(compareAlbum); // -1
 // Length property returns the number of characters in the string
 string name = "Maria";
 Console.WriteLine("{0} has {1} characters", name, name.Length);
+
+string firstLetter = name.Substring(0, 1);
+Console.WriteLine($"First letter of the name {name} is {firstLetter}");
+
+string middleOfName = name.Substring(1, 3);
+Console.WriteLine($"Middle three letters of the name {name} is {middleOfName}");
