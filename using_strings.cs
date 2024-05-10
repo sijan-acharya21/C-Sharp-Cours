@@ -57,3 +57,7 @@ Console.WriteLine($"First letter of the name {name} is {firstLetter}");
 
 string middleOfName = name.Substring(1, 3);
 Console.WriteLine($"Middle three letters of the name {name} is {middleOfName}");
+
+// StartsWith() function returns a true or false value based on the strings compared
+bool startsWith = name.StartsWith(partOfName);
+Console.WriteLine($"{partOfName} is inside {name}: {startsWith}");
