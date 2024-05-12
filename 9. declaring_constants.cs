@@ -23,3 +23,19 @@ Console.WriteLine("Tomorrow is {0}", tomorrow);
 
 int tomorrowIndex = (int)tomorrow;
 Console.WriteLine("Tomorrow is day {0}", tomorrowIndex);
+
+enum Season {
+  Summer,
+  Winter,
+  Spring,
+  Autumn
+}
+
+Season currentSeason = Season.Autumn;
+Season nextSeason = Season.Winter;
+
+int currentSeasonIndex = (int) currentSeason;
+int nextSeasonIndex = (int) nextSeason;
+
+Console.WriteLine(currentSeasonIndex);
+Console.WriteLine(nextSeasonIndex);
