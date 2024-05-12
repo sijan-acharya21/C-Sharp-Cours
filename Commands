@@ -1,1 +1,5 @@
 Commands
+
+Ctrl + \, E => Error list
+Ctrl + K, Ctrl + C => Comment
+Ctrl + K, Ctrl + U => Uncomment
