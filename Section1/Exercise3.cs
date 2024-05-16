@@ -7,4 +7,8 @@ Console.WriteLine("Enter time in minutes");
 int timeInMinutes = int.Parse(Console.ReadLine());
 double timeInHours = (double) timeInMinutes / 60;
 
-Console.WriteLine("{0} minutes = {1} hours", timeInMinutes, timeInHours);
+// Another way to output solution
+// Console.WriteLine("{0} minutes = {1} hours", timeInMinutes, timeInHours);
+
+// Formating decimal places - Use {0:0.00} for 2 decimal places, {0.000} for 3 decimal places ...
+Console.WriteLine("{0} minutes = {1:0.00} hours", timeInMinutes, timeInHours);
