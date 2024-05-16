@@ -32,3 +32,49 @@ if (isSoftwareEngineer) { // Same as (isSoftwareEngineer == true)
 }
 // Runs the statement below if isSoftwareEngineer == false
 Console.WriteLine("Person is NOT a software engineer"); // Same as (isSoftwareEngineer == true)
+
+// Age restriction program
+Console.WriteLine("Enter your age");
+int myAge = int.Parse(Console.ReadLine());
+
+if (myAge > 18)
+{
+    Console.WriteLine("Can watch MA 15+");
+    Console.WriteLine("Can watch R18+");
+
+    if (myAge < 15)
+    {
+        Console.WriteLine("Can watch only PG");
+    }
+}
+Console.WriteLine("CANNOT watch PG, MA 15+ or R 18+");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
