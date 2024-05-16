@@ -37,44 +37,13 @@ Console.WriteLine("Person is NOT a software engineer"); // Same as (isSoftwareEn
 Console.WriteLine("Enter your age");
 int myAge = int.Parse(Console.ReadLine());
 
-if (myAge > 18)
+if (myAge < 18)
 {
-    Console.WriteLine("Can watch MA 15+");
-    Console.WriteLine("Can watch R18+");
-
-    if (myAge < 15)
+    if (myAge > 15)
     {
-        Console.WriteLine("Can watch only PG");
+        Console.WriteLine("Can watch MA 15+");
     }
+ 
+    Console.WriteLine("Can watch PG");
 }
-Console.WriteLine("CANNOT watch PG, MA 15+ or R 18+");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("Can only watch G");
