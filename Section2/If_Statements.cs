@@ -43,7 +43,6 @@ if (myAge < 18)
     {
         Console.WriteLine("Can watch MA 15+");
     }
- 
     Console.WriteLine("Can watch PG");
 }
 Console.WriteLine("Can only watch G");
