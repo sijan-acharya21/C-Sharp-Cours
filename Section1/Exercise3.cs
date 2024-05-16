@@ -12,3 +12,11 @@ double timeInHours = (double) timeInMinutes / 60;
 
 // Formating decimal places - Use {0:0.00} for 2 decimal places, {0.000} for 3 decimal places ...
 Console.WriteLine("{0} minutes = {1:0.00} hours", timeInMinutes, timeInHours);
+
+// CORRECT SOLUTION
+// MISTAKE - Did not read the question carefully in the second line : "amount of time in hours and minutes"
+Console.WriteLine("Enter time in minutes");
+int timeInMinutes = int.Parse(Console.ReadLine());
+int timeInHours = timeInMinutes / 60;
+int remainder = timeInMinutes % 60;
+Console.WriteLine("{0} minutes = {1} hours and {2} minutes", timeInMinutes, timeInHours, remainder);
