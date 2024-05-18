@@ -18,3 +18,34 @@ if (age >= 18)
 {
     Console.WriteLine("Sorry, you aren't 18 yet");
 }
+
+// This checks every single if statement even after finding the correct 
+// If age entererd was 1 the program below will still check every if statement 
+Console.WriteLine("Enter your age");
+int age = int.Parse(Console.ReadLine());
+if (age == 1)
+{
+    Console.WriteLine("You are 1");
+}
+if (age == 2 )
+{
+    Console.WriteLine("You are 2");
+}
+if (age == 3 )
+{
+    Console.WriteLine("You are 3");
+}
+
+// Using else if will be more efficient than using multiple if statements
+if (age == 1)
+{
+    Console.WriteLine("You are 1");
+}
+else if (age == 2 )
+{
+    Console.WriteLine("You are 2");
+}
+else if (age == 3 )
+{
+    Console.WriteLine("You are 3");
+}
