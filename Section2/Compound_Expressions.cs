@@ -26,7 +26,8 @@ if (age >= 13 && age <= 19)
 
 // Movie discount
 
-if (age < 12 || (age > 65 && movieRating.ToUpper() == "G"))
+
+if (age < 12 || (age > 65 && movieRating == "G"))
 {
     Console.WriteLine("You get a discount");
 } else
