@@ -37,6 +37,7 @@ if (age == 3 )
 }
 
 // Using else if will be more efficient than using multiple if statements
+// If age is 1 it will not execute the other conditions such as age == 2 and age == 3
 if (age == 1)
 {
     Console.WriteLine("You are 1");
@@ -49,3 +50,4 @@ else if (age == 3 )
 {
     Console.WriteLine("You are 3");
 }
+
