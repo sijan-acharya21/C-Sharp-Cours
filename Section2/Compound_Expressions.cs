@@ -1,16 +1,25 @@
-// AND operator (&&) combines two conditions together
+// AND operator (&&) checks if all conditions are met
+// Only true when both boolean values are true
+bool greatResume = true;
+bool passedCodingInterview = true;
+bool hiredForJob = greatResume && passedCodingInterview;
+Console.WriteLine(hiredForInterview);
 
-bool x = true;
-bool y = true;
+// OR operator (||) checks if at least one condition is met
+// Only false when both boolean values are false
+bool athleteScholarship = true;
+bool perfectGrades = true;
+bool admissionToSchool = athleteScholarship || perfectGrades;
+Console.WriteLine(admissionToSchool);
 
-bool z = x && y;
-Console.WriteLine(z);
+// Another age restriction program
+Console.WriteLine("Enter you age");
+int age = int.Parse(Console.ReadLine());
 
-/* 
-AND operator is true when all conditions are met
-
-True && True == True
-True && False == False
-False && True == False
-False && False == False
-*/
+if (age >= 13 && age <= 19)
+{
+    Console.WriteLine("Allowed in the teenage party");
+} else
+{
+    Console.WriteLine("Sorry, this is a teenage party");
+}
