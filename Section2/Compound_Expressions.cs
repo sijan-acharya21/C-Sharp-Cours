@@ -14,9 +14,9 @@ Console.WriteLine(admissionToSchool);
 
 // Another age restriction program
 Console.WriteLine("Enter your age");
-int age = int.Parse(Console.ReadLine());
+int personAge = int.Parse(Console.ReadLine());
 // Checks if an individual is eligible for the party
-if (age >= 13 && age <= 19)
+if (personAge >= 13 && personAge <= 19)
 {
     Console.WriteLine("Allowed in the teenage party");
 } else
@@ -25,14 +25,15 @@ if (age >= 13 && age <= 19)
 }
 
 // Movie discount
-
-
+Console.WriteLine("Enter your age");
+int age = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter the movie rating");
 if (age < 12 || (age > 65 && movieRating == "G"))
 {
     Console.WriteLine("You get a discount");
 } else
 {
-    Console.WriteLine("You DONT get a discount");
+    Console.WriteLine("No discount");
 }
 
 
