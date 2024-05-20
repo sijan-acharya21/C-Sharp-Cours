@@ -10,8 +10,8 @@ int randomNumber = randomGenerator.Next(min, max);
 
 // Instantiate random number generator
 Random randomGenerator = new Random();
-// Random.Next() returns a non-negative random integer
-int randomNumber = randomGenerator.Next(1, 11);
+// Random.Next(mininum, maximum) generates a random number with minimum and maximum
+int randomNumber = randomGenerator.Next(1, 11); // Minimum (1) and Maximum (10, 11 is exclusive)
 
 Console.WriteLine("Guess the random number");
 int guess = int.Parse(Console.ReadLine());
