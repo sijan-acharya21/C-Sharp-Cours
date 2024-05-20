@@ -22,12 +22,12 @@ if (area < 400)
 else if (area >= 400 && area < 600)
 {
     cost = 35;
-    Console.WriteLine($"Weekly cost is ${cost * area}");
+    Console.WriteLine($"Weekly cost is ${cost}");
     Console.WriteLine($"Seasonal cost is ${cost* seasonWeeks}");
 }
 else if (area >= 600)
 {
     cost = 50;
-    Console.WriteLine($"Weekly cost is ${cost * area}");
+    Console.WriteLine($"Weekly cost is ${cost}");
     Console.WriteLine($"Seasonal cost is ${cost * seasonWeeks}");
 }
