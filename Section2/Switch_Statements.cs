@@ -2,10 +2,7 @@
 Console.WriteLine("Enter university year");
 int universityYear = int.Parse(Console.ReadLine());
 
-// Break statement 
-
-switch (universityYear)
-{
+switch (universityYear) {
     case 1:
         {
             Console.WriteLine("Freshman");
@@ -30,4 +27,9 @@ switch (universityYear)
         {
             Console.WriteLine("Invalid year");
             break;
-        }
+}
+
+// Break statement is not need when there is no body for the case
+Console.WriteLine("Enter the day of the week")
+int day = int.Parse(Console.ReadLine());
+
