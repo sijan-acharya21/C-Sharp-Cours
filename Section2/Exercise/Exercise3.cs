@@ -10,7 +10,6 @@ int randomNumber = randomGenerator.Next(min, max);
 
 Random randomGenerator = new Random();
 int randomNumber = randomGenerator.Next(1, 10);
-Console.WriteLine(randomGenerator)
 
 Console.WriteLine("Guess the random number");
 int guess = int.Parse(Console.ReadLine());
