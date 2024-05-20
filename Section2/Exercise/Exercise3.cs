@@ -17,7 +17,7 @@ int guess = int.Parse(Console.ReadLine());
 if (guess < randomNumber) {
   Console.WriteLine($"Your guess {guess} was less than the random number {randomNumber}");
 } else if (guess == randomNumber) {
-  Console.WriteLine("Correct, you guessed the random number {randomNumber}");
+  Console.WriteLine($"Correct, you guessed the random number {randomNumber}");
 } else if (guess > randomNumber) {
-  Console.WriteLine("Your guess {guess} was greater than the random number {randomNumber}");
+  Console.WriteLine($"Your guess {guess} was greater than the random number {randomNumber}");
 }
