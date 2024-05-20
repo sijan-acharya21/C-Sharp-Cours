@@ -35,6 +35,11 @@ int eNPSRating = int.Parse(Console.ReadLine());
 
 switch (eNPSRating)
 {
+    case 0: 
+        {
+            Console.WriteLine("Not good");
+            break;
+        }
     case 1:
     case 2:
     case 3:
@@ -46,18 +51,24 @@ switch (eNPSRating)
             Console.WriteLine("Good");
             break;
         }
-        case 8:
+    case 8:
         {
             Console.WriteLine("Great");
             break;
         }
-        case 9:
+    case 9:
         {
             Console.WriteLine("Excellent");
             break;
         }
-        case 10:
+    case 10:
         {
             Console.WriteLine("Outstanding");
             break;
         }
+    default:
+        {
+            Console.WriteLine("Invalid number for rating");
+            break;
+        }
+        
