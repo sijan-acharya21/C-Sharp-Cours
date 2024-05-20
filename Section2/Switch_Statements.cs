@@ -30,6 +30,34 @@ switch (universityYear) {
 }
 
 // Break statement is not need when there is no body for the case
-Console.WriteLine("Enter the day of the week")
-int day = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter the rating of your eNPS Telstra survey");
+int eNPSRating = int.Parse(Console.ReadLine());
 
+switch (eNPSRating)
+{
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+    case 7:
+        {
+            Console.WriteLine("Good");
+            break;
+        }
+        case 8:
+        {
+            Console.WriteLine("Great");
+            break;
+        }
+        case 9:
+        {
+            Console.WriteLine("Excellent");
+            break;
+        }
+        case 10:
+        {
+            Console.WriteLine("Outstanding");
+            break;
+        }
