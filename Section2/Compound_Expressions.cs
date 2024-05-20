@@ -28,41 +28,11 @@ if (personAge >= 13 && personAge <= 19)
 Console.WriteLine("Enter your age");
 int age = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter the movie rating");
-if (age < 12 || (age > 65 && movieRating == "G"))
+if ((age < 12 || (age > 65) && movieRating == "G"))
 {
     Console.WriteLine("You get a discount");
 } else
 {
     Console.WriteLine("No discount");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
