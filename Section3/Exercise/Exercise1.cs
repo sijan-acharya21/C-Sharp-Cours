@@ -4,6 +4,7 @@ While the user enter the values less than $5.65 or greater than $49.99, continue
 Before the program ends, display the valid pay rate.
 */
 
+// While loop version
 Console.WriteLine("Enter an hourly pay rate");
 double hourlyRate = double.Parse(Console.ReadLine());
 
@@ -13,3 +14,9 @@ while (hourlyRate < 5.65 || hourlyRate > 49.99)
     hourlyRate = double.Parse(Console.ReadLine());
 }
 Console.WriteLine("The valid pay rate is ${0}", hourlyRate);
+
+// Do while loop
+do {
+    double hourlyRate = double.Parse(Console.ReadLine());
+    Console.WriteLine("Enter an hourly rate");
+} while (hourlyRate < 5.65 || hourlyRate > 49.99);
