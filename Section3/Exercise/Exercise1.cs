@@ -22,5 +22,5 @@ do
    Console.WriteLine("Enter an hourly rate");
    rate = double.Parse(Console.ReadLine());
 } while (rate < 5.65 || rate > 49.99); {
-   Console.WriteLine($"The valid pay rate is ${hourlyRate}");
+   Console.WriteLine($"The valid pay rate is ${rate}");
 }
