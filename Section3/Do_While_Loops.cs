@@ -13,7 +13,7 @@ do {
   ;
 } while (i > 6);
 
-// Prints hello if user enters again else ends program
+// While loop example
 Console.WriteLine("hello");
 string response = Console.ReadLine();
 while (response == "again") {
@@ -21,4 +21,9 @@ while (response == "again") {
   response = Console.ReadLine();
 }
 
-//
+// Do while example
+string text;
+do {
+  Console.WriteLine("hello");
+  response = Console.ReadLine();
+} while (response == "again");
