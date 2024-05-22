@@ -5,9 +5,11 @@ Before the program ends, display the valid pay rate.
 */
 
 Console.WriteLine("Enter an hourly pay rate");
-double hourlyRate = int.Parse(Console.ReadLine());
+double hourlyRate = double.Parse(Console.ReadLine());
 
-while (hourlyRate < 5.65 || hourlyRate > 49.99) {
-  Console.WriteLine("Enter an hourly pay rate");
+while (hourlyRate < 5.65 || hourlyRate > 49.99)
+{
+    Console.WriteLine("Enter an hourly pay rate");
+    hourlyRate = double.Parse(Console.ReadLine());
 }
 Console.WriteLine("The valid pay rate is ${0}", hourlyRate);
