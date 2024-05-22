@@ -43,3 +43,14 @@ for (int j = 0; j < 6; j++) {
   }
   Console.WriteLine();
 }
+
+// Creating a square based on user input size
+Console.WriteLine("Enter the size of the square");
+int size = int.Parse(Console.ReadLine());
+
+for (int j = 0; j < size; j++) {
+  for (int k = 0; k < size; k++) {
+    Console.Write("{0,-2}", "*"); // -2 inside curly braces means 2 spaces to the left
+  } 
+  Console.WriteLine(); // Cursor goes to a new line after completing everything above
+}
