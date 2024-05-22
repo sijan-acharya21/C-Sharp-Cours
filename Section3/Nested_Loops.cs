@@ -36,12 +36,10 @@ for (int i = 0; i < 10; i++)
 }
 Console.WriteLine();
 
-// Creating the code above using nested loops
-for (int j = 0; j < 10; j++) {
+// Creating the square above using nested loops
+for (int j = 0; j < 6; j++) {
   for (int i = 0; i < 10; i++) {
     Console.Write("*");
   }
   Console.WriteLine();
 }
-
-
