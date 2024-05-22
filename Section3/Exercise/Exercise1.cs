@@ -16,11 +16,11 @@ while (hourlyRate < 5.65 || hourlyRate > 49.99)
 Console.WriteLine("The valid pay rate is ${0}", hourlyRate);
 
 // Do while loop version
-double hourlyRate;
+double rate;
 do
 {
    Console.WriteLine("Enter an hourly rate");
-   hourlyRate = double.Parse(Console.ReadLine());
-} while (hourlyRate < 5.65 || hourlyRate > 49.99); {
+   rate = double.Parse(Console.ReadLine());
+} while (rate < 5.65 || rate > 49.99); {
    Console.WriteLine($"The valid pay rate is ${hourlyRate}");
 }
