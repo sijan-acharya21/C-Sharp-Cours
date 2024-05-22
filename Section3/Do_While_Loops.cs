@@ -21,9 +21,9 @@ while (response == "again") {
   response = Console.ReadLine();
 }
 
-// Do while example
-string text;
+// Do while loop example
+string input;
 do {
   Console.WriteLine("hello");
-  response = Console.ReadLine();
-} while (response == "again");
+  input = Console.ReadLine();
+} while (input == "again");
