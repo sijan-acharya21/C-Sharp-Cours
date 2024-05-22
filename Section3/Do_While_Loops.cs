@@ -24,6 +24,6 @@ while (response == "again") {
 // Do while loop example
 string input;
 do {
-  Console.WriteLine("hello");
-  input = Console.ReadLine();
+  Console.WriteLine("hello"); // Executes the body first regardless of the condition
+  input = Console.ReadLine(); 
 } while (input == "again");
