@@ -35,3 +35,13 @@ for (int i = 0; i < 10; i++)
     Console.Write("*");
 }
 Console.WriteLine();
+
+// Creating the code above using nested loops
+for (int j = 0; j < 10; j++) {
+  for (int i = 0; i < 10; i++) {
+    Console.Write("*");
+  }
+  Console.WriteLine();
+}
+
+
