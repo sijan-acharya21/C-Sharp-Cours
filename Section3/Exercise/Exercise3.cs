@@ -12,9 +12,8 @@ int randomNumber = randomGenerator.Next(min, max); 1, 11
 // Generate a random number between 1 and 10
 Random randomGenerator = new Random();
 int randomNumber = randomGenerator.Next(1, 11);
-
 int guess; // Declaring the guess variable to which will be inside the do-while loop
-
+int numberOfGuesses = 0; // More advanced functionality added to display how many times the user guessed
 // Using loops to guess again rather than giving one chance for the user
 do
 {
@@ -35,6 +34,7 @@ do
     {
         Console.WriteLine($"Your number {guess} is TOO HIGH");
     }
+    numberOfGuesses++; // Increment the number of guess by 1
 } while (guess != randomNumber); // If guess IS NOT random number loop the body above
 
 /* 
