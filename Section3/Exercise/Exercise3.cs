@@ -22,17 +22,19 @@ do
 {
     // Store integer from the user
     guess = int.Parse(Console.ReadLine());
-    //
+    // Guess is lower than random number
     if (guess < randomNumber)
     {
         Console.WriteLine($"Your number {guess} is TOO LOW");
     }
+    // Guess is correct
     else if (guess == randomNumber)
     {
         Console.WriteLine($"Your number {guess} is CORRECT");
     }
+    // Guess is higher than random number
     else if (guess > randomNumber)
     {
         Console.WriteLine($"Your number {guess} is TOO HIGH");
     }
-} while (guess != randomNumber);
+} while (guess != randomNumber); // If guess IS NOT random number loop the body above
