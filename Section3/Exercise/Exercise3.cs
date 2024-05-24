@@ -37,9 +37,7 @@ do
     }
 } while (guess != randomNumber); // If guess IS NOT random number loop the body above
 
-// IMPROVEMENTS
-
-/*
-
+/* 
+IMPROVEMENTS
 Console.WriteLine("Enter your guess"); should have been put inside do-while loop
-
+*/
