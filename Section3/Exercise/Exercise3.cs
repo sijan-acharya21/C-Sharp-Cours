@@ -14,6 +14,22 @@ Random randomGenerator = new Random();
 int randomNumber = randomGenerator.Next(1, 11);
 
 Console.WriteLine("Enter your guess");
-int guess = int.Parse(Console.ReadLine());
+int guess;
 
 // Using loops to guess again rather than giving one chance for the user
+do
+{
+    guess = int.Parse(Console.ReadLine());
+    if (guess < randomNumber)
+    {
+        Console.WriteLine($"Guess {guess} is LOWER THAN random number");
+    }
+    else if (guess == randomNumber)
+    {
+        Console.WriteLine($"Guess {guess} is CORRECT");
+    }
+    else if (guess > randomNumber)
+    {
+        Console.WriteLine($"Guess {guess} is GREATER THAN random number");
+    }
+} while (guess != randomNumber);
