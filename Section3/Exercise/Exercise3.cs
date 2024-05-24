@@ -22,14 +22,14 @@ do
     guess = int.Parse(Console.ReadLine());
     if (guess < randomNumber)
     {
-        Console.WriteLine($"Guess {guess} is LOWER THAN random number");
+        Console.WriteLine($"Your number {guess} is TOO LOW");
     }
     else if (guess == randomNumber)
     {
-        Console.WriteLine($"Guess {guess} is CORRECT");
+        Console.WriteLine($"Your number {guess} is CORRECT");
     }
     else if (guess > randomNumber)
     {
-        Console.WriteLine($"Guess {guess} is GREATER THAN random number");
+        Console.WriteLine($"Your number {guess} is TOO HIGH");
     }
 } while (guess != randomNumber);
