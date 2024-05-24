@@ -13,13 +13,16 @@ int randomNumber = randomGenerator.Next(min, max); 1, 11
 Random randomGenerator = new Random();
 int randomNumber = randomGenerator.Next(1, 11);
 
+
 Console.WriteLine("Enter your guess");
-int guess;
+int guess; // Declaring the guess variable to which will be inside the do-while loop
 
 // Using loops to guess again rather than giving one chance for the user
 do
 {
+    // Store integer from the user
     guess = int.Parse(Console.ReadLine());
+    //
     if (guess < randomNumber)
     {
         Console.WriteLine($"Your number {guess} is TOO LOW");
