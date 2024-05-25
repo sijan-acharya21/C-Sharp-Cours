@@ -29,3 +29,44 @@ Console.WriteLine(myArray[1]); // Accesses the 2nd element which is 6
 string[] playoffTeams = new string[] {"Minnesotta Timberwolves","Dallas Mavericks","Indiana Pacers","Boston Celtics"};
 
 string[] finals = {"Cleveland Cavaliers", "Golden State Warriors"};
+Console.WriteLine(finals[0]); // Cleveland Cavaliers
+Console.WriteLine(finals[1]); // Golden State Warriors
+
+// Change value of elements
+finals[0] = "New England Patriots";
+finals[1] = "Atlanta Falcons";
+
+Console.WriteLine(finals[0]); // Changed from Cavaliers to New England Patriots
+Console.WriteLine(finals[1]); // Changed from Warriors to Atlanta Falcons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
