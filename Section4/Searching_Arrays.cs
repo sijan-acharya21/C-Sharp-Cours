@@ -1,4 +1,4 @@
-// Parallel arrays are two or more arrays that have corresponding values for the same index
+// Parallel arrays are two or more arrays that have values which correspond to the same index
 string[] students = {"Bob", "Ted", "Tom", "Fred"};
 int[] grades = { 77, 50, 78, 99 };
 
