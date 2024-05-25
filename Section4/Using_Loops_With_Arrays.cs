@@ -26,41 +26,7 @@ foreach (int score in grades) {
   Console.WriteLine(score);
 }
 
-// Reverse the order
+// Reverse the order for the grades
 for (int i = grades.Length - 1; i > -1; i--) {
   Console.WriteLine(grades[i]);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
