@@ -23,6 +23,10 @@ if (answer < 0) {
 int[] secondArray = { 10, 5, 7, 2, 55};
 Array.Sort(secondArray);
 
+for (int i = 0; i < secondArray.Length; i++) {
+  Console.WriteLine(secondArray[i]);
+}
+
 
 
 
