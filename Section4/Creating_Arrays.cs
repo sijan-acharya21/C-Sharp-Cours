@@ -24,4 +24,8 @@ myArray[2] = 7;
 
 Console.WriteLine(myArray[1]); // Accesses the 2nd element which is 6
 
-//
+// Other ways to create arrays
+// Do not have to include elements inside string[] because it counts automatically
+string[] playoffTeams = new string[] {"Minnesotta Timberwolves","Dallas Mavericks","Indiana Pacers","Boston Celtics"};
+
+string[] finals = {"Cleveland Cavaliers", "Golden State Warriors"};
