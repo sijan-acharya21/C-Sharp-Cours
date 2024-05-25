@@ -1,23 +1,27 @@
 // Linear search or sequential search checks each element in the array
 // Binary search is more efficient than linear search - array must be in order before searching
 
-int[] myArray = { 10, 15, 20, 25, 30, 35, 40, 45 };
+int[] array = { 10, 15, 20, 25, 30, 35, 40, 45 };
 Console.WriteLine("Enter number to check if it exists");
 int number = int.Parse(Console.ReadLine());
 
-/*
-Array.BinarySearch(arrayName, value)
-- Returns index of element is value is found
-- Returns -1 if value is not found
-*/
+// Binary search method
+// Array.BinarySearch(arrayName, value)
+// Returns index of element is value is found
+// Returns -1 if value is not found
 
-int answer = Array.BinarySearch(myArray, number);
+int answer = Array.BinarySearch(array, number);
 
 if (answer < 0) {
   Console.WriteLine("Number DOES NOT exist in the array");
 } else {
   Console.WriteLine("{0} EXISTS in the array at index {1}", number, answer);
 }
+
+// Sort method - Rearranges array elements in ascending order
+// Array.Sort(arrayName);
+int[] secondArray = { 10, 5, 7, 2, 55};
+Array.Sort(secondArray);
 
 
 
