@@ -18,46 +18,20 @@ if (answer < 0) {
   Console.WriteLine("{0} EXISTS in the array at index {1}", number, answer);
 }
 
-// Sort method - Rearranges array elements in ascending order
+// Sort method - Rearrange array elements in ascending order
 // Array.Sort(arrayName);
-int[] secondArray = { 10, 5, 7, 2, 55};
+int[] secondArray = { 10, 5, 7, 2, 55 };
 Array.Sort(secondArray);
 
 for (int i = 0; i < secondArray.Length; i++) {
   Console.WriteLine(secondArray[i]);
 }
 
+// Reverse method - Rearrange array elements in reverse order
+// Array.Reverse(arrayName);
+int[] thirdArray = { 10, 5, 7, 2, 55 };
+Array.Reverse(thirdArray);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for (int i = 0; i < thirdArray.Length; i++) {
+  Console.WriteLine(thirdArray[i]);
+}
