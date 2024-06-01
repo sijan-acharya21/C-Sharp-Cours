@@ -8,10 +8,21 @@ Console.WriteLine("Enter the amount of students in your class");
 int students = int.Parse(Console.ReadLine());
 string[] name = new string[students];
 int[] grade = new int[students];
+int sum = 0;
+int highestGrade = 0;
 
 for (int i = 0; i < students; i++) {
   Console.WriteLine("Enter the name of the student");
   name[i] = Console.ReadLine();
   Console.WriteLine("Enter the final grade of the student");
-  grade[i] = Console.ReadLine();
+  grade[i] = int.Parse(Console.ReadLine());
+  sum += grade[i];
+
+  if (grade[i] > highestGrade) {
+  highestGrade = grade[i];
+  }
 }
+
+int averageGrade = sum / students;
+Console.WriteLine($"Average grade: {averageGrade}");
+Console.WriteLine($"Highest grade: {highestGrade}");
