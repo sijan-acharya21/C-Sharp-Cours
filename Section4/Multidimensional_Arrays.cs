@@ -1,13 +1,21 @@
-// One dimensional array
-int[] myArray = { 5, 6, 7 };
+// An normal array is called a one dimensional array
+int[] array = new int[];
 
-// There are two types of multidimensional arrays - rectangular and jagged arrays
+// There are two types of multidimensional arrays - Rectangular and Jagged arrays
 
-// Rectangular array is structured like a rectangular structure
+// Rectangular array has the same amount of columns in every row
+// Jagged array has irregular amount of columns in every row
 
-// Creating a multidimensional array
+// A two dimensional rectangular array has the following syntax
+// 7 is the number of rows and 10 is the number of columns in the array
+int[,] twoDimensionalArray = new int[7, 10];
 
-int[,] myArray = new int[3, 4];
+// A three dimensional rectangular array has the following syntax
+int[,,] threeDimensionalArray = new int[5,5];
+
+// Creating a rectangular array with 3 rows and 4 columns
+int[,] myArray = new int[3,4]
+
 myArray[0, 0] = 1;
 myArray[0, 1] = 2;
 myArray[0, 2] = 3;
@@ -23,9 +31,12 @@ myArray[2, 1] = 2;
 myArray[2, 2] = 3;
 myArray[2, 3] = 4;
 
-// 1 2 3 4
-// 1 2 3 4
-// 1 2 3 4
+/* 
+The array above "myArray" has the following shape
+1 2 3 4
+1 2 3 4
+1 2 3 4
+*/
 
 // Short hand for the array above
 int[,] myArrayDuplicate = { { 1, 2, 3, 4 }, { 1, 2, 3, 4 }, { 1, 2, 3, 4 } };
