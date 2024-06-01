@@ -66,9 +66,7 @@ for(int i = 0; i < 3; i++) { // i is less than 3 because it has 3 rows
     }
     Console.WriteLine();
 }
-/* 
-Output will execute the following
-1234
-12345
-123456
-*/
+
+// 1234
+// 12345
+// 123456
