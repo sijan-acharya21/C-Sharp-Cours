@@ -51,3 +51,22 @@ for (int i = 0; i < 3; i++)
     }
     Console.WriteLine();
 }
+
+// A jagged array is an array of arrays, that is, every row is a new array
+// int[][] arrayName = new int[3][] 
+int[][] jaggedArray = new int[3][]; // Jagged array will have 3 rows
+jaggedArray[0] = new int[4] {1,2,3,4};
+jaggedArray[1] = new int[5] {1,2,3,4,5};
+jaggedArray[2] = new int[6] {1,2,3,4,5,6};
+
+// Output the jagged array
+
+
+
+
+
+
+
+
+
+
