@@ -60,13 +60,15 @@ jaggedArray[1] = new int[5] {1,2,3,4,5};
 jaggedArray[2] = new int[6] {1,2,3,4,5,6};
 
 // Output the jagged array
-
-
-
-
-
-
-
-
-
-
+for(int i = 0; i < 3; i++) { // i is less than 3 because it has 3 rows
+    for(int j = 0; j < jaggedArray[i].Length; j++) {
+        Console.Write(jaggedArray[i][j]);
+    }
+    Console.WriteLine();
+}
+/* 
+Output will execute the following
+1234
+12345
+123456
+*/
