@@ -38,14 +38,16 @@ The array above "myArray" has the following shape
 1 2 3 4
 */
 
-// Short hand for the array above
-int[,] myArrayDuplicate = { { 1, 2, 3, 4 }, { 1, 2, 3, 4 }, { 1, 2, 3, 4 } };
+// Another way to declare rectangular arrays
+// Every row is placed inside curly braces
+int[,] anotherArray = { { 1, 2, 3, 4 }, { 1, 2, 3, 4 }, { 1, 2, 3, 4 } };
 
+// Output the values inside the array above
 for (int i = 0; i < 3; i++)
 {
     for (int j = 0; j < 4; j++) 
     {
-        Console.Write(myArrayDuplicate[i,j]);
+        Console.Write(anotherArray[i,j]);
     }
     Console.WriteLine();
 }
