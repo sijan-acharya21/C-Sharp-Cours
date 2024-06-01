@@ -9,7 +9,6 @@ int zipCode = int.Parse(Console.ReadLine());
 
 int[] eligibleZip = { 2200, 2210, 2220, 2230, 2240, 2250, 2260, 2270, 2280, 2290 };
 bool checkZip = true;
-// Check every element if zipCode IS EQUAL TO eligibleZip element
 
 for (int i = 0; i < eligibleZip.Length; i++)
 {
@@ -21,8 +20,8 @@ for (int i = 0; i < eligibleZip.Length; i++)
     {
         checkZip = true;
     }
+}
 
-} 
     if (checkZip == true)
     {
         Console.WriteLine($"Zip code {zipCode} IS ELIGIBLE for delivery");
