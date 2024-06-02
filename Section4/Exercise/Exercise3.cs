@@ -22,3 +22,9 @@ Random random = new Random(); // Ra
 int number = random.Next(0, 8); // Minimum index is 0 and max is 7
 string word = list[number];
 string hiddenWord = "";
+
+// Display the hidden word using asterisks
+for (int i = 0; i < word.Length; i++)
+{
+    hiddenWord += "*";
+}
