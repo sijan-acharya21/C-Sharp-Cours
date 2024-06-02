@@ -15,22 +15,3 @@ strings Length method
 
 */
 
-string[] array = new string[] { "dance", "blood", "music", "movie", "skating", "basketball", "laptop", "engineer" };
-Random randomGenerator = new Random();
-int number = randomGenerator.Next(0, 9);
-string word = array[number];
-string duplicateWord = word;
-
-int wordLength = word.Length;
-
-for (int i = 0; i < wordLength; i++)
-{
-    word = word.Remove(i, 1);
-    word = word.Insert(i, "*");
-}
-Console.WriteLine("Your word is {0} \n", word);
-
-Console.WriteLine("Guess a letter in the word");
-string guess = Console.ReadLine();
-
-int num = duplicateWord.Contains(guess);
