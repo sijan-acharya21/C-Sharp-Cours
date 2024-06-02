@@ -7,8 +7,13 @@
 
 // Creating a method synta
 // accessModifier static returnType methodName
+
 public static void DisplayMessage() {
  Console.WriteLine("Hello World");
 }
-
 // Parameters are the information the method needs to complete the task
+
+public static void Add(int number1, int number2) {
+ int answer = number1 + number2;
+ Console.WriteLine(answer);
+}
