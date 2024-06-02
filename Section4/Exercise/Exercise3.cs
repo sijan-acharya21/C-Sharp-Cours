@@ -57,3 +57,5 @@ for (int i = 0; i < word.Length; i++)
     }
     Console.ResetColor();
 }
+Console.WriteLine($"You have CORRECTLY GUESSED the word: {hiddenWord}");
+
