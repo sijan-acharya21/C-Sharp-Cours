@@ -33,10 +33,4 @@ Console.WriteLine("Your word is {0} \n", word);
 Console.WriteLine("Guess a letter in the word");
 string guess = Console.ReadLine();
 
-for (int i = 0; i < wordLength; i++)
-{
-    if (guess == duplicateWord[i].ToString()) 
-    { 
-    
-    }
-}
+int num = duplicateWord.Contains(guess);
