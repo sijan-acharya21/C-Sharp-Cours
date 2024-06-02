@@ -59,3 +59,8 @@ for (int i = 0; i < word.Length; i++)
 }
 Console.WriteLine($"You have CORRECTLY GUESSED the word: {hiddenWord}");
 
+// IMPROVEMENTS
+// Need to learn about Insert method
+// Need to learn about Remove method
+// Need to learn about Random library
+// Practice Random.
