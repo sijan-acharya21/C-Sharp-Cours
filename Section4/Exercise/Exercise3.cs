@@ -45,3 +45,8 @@ for (int i = 0; i < word.Length; i++)
          containsLetter = true;
      }
 }
+    if (containsLetter == true)
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"Yes, {letter} IS IN the word");
+    }
