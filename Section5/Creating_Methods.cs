@@ -12,8 +12,36 @@ public static void DisplayMessage() {
  Console.WriteLine("Hello World");
 }
 // Parameters are the information the method needs to complete the task
-
+// The arguments passed for the function has to be in the correct order
 public static void Add(int number1, int number2) {
  int answer = number1 + number2;
  Console.WriteLine(answer);
 }
+
+// Instead of using void a return type can be used to store the value returned
+
+public static double CalculatePay(double hourlyRate, double hoursWorked) {
+ double output = hourlyRate * hoursWorked;
+ return output;
+}
+
+double answer = CalculatePay(29,80);
+Console.WriteLine(answer);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
