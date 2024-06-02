@@ -50,3 +50,10 @@ for (int i = 0; i < word.Length; i++)
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"Yes, {letter} IS IN the word");
     }
+    else
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine($"Sorry, {letter} IS NOT in the word");
+    }
+    Console.ResetColor();
+}
