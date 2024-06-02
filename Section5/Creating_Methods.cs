@@ -19,7 +19,7 @@ public static void Add(int number1, int number2) {
 }
 
 // Instead of using void a return type can be used to store the value returned
-
+// A return is useful because it can be stored and used somewhere else
 public static double CalculatePay(double hourlyRate, double hoursWorked) {
  double output = hourlyRate * hoursWorked;
  return output;
