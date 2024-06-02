@@ -16,3 +16,9 @@ strings Length method
 
 // Store at least eight words in the array
 string[] list = { "react", "sql", "html", "css", "javascript", "docker", "java", "github" };
+
+// Select a random word from the array
+Random random = new Random(); // Ra
+int number = random.Next(0, 8); // Minimum index is 0 and max is 7
+string word = list[number];
+string hiddenWord = "";
