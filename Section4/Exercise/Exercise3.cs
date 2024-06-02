@@ -12,5 +12,7 @@ strings Contains method
 strings Remove method
 strings Insert method
 strings Length method
-
 */
+
+// Store at least eight words in the array
+string[] list = { "react", "sql", "html", "css", "javascript", "docker", "java", "github" };
