@@ -28,3 +28,10 @@ for (int i = 0; i < word.Length; i++)
 {
     hiddenWord += "*";
 }
+
+ while (hiddenWord.Contains("*"))
+ {
+     Console.WriteLine(hiddenWord);
+     Console.WriteLine("Guess a letter in the word");
+     char letter = char.Parse(Console.ReadLine());
+     bool containsLetter = false;
