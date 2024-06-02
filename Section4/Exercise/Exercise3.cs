@@ -36,12 +36,12 @@ for (int i = 0; i < word.Length; i++)
      char letter = char.Parse(Console.ReadLine());
      bool containsLetter = false;
      
-                for (int i = 0; i < word.Length; i++)
-                {
-                    if (word[i] == letter)
-                    {
-                       hiddenWord = hiddenWord.Remove(i, 1);
-                       hiddenWord = hiddenWord.Insert(i, letter.ToString());
-                       containsLetter = true;
-                    }
-                }
+for (int i = 0; i < word.Length; i++) 
+{
+     if (word[i] == letter) 
+     {
+         hiddenWord = hiddenWord.Remove(i, 1);
+         hiddenWord = hiddenWord.Insert(i, letter.ToString());
+         containsLetter = true;
+     }
+}
