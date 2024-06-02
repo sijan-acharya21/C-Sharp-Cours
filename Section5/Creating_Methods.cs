@@ -25,24 +25,7 @@ public static double CalculatePay(double hourlyRate, double hoursWorked) {
  return output;
 }
 
+// Place the following under Main method
 double answer = CalculatePay(29,80);
 double payAfterTax = answer - 200;
 Console.WriteLine(payAfterTax);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
