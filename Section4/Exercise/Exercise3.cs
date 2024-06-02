@@ -60,7 +60,9 @@ for (int i = 0; i < word.Length; i++)
 Console.WriteLine($"You have CORRECTLY GUESSED the word: {hiddenWord}");
 
 // IMPROVEMENTS
-// Need to learn about Insert method
-// Need to learn about Remove method
+// Need to learn about Insert() method
+// Need to learn about Remove() method
 // Need to learn about Random library
-// Practice Random.
+
+// Next(min, max) => Max is 
+// Remove(index, numberOfCharacters) has the index to be removed and how many characters to be removed
