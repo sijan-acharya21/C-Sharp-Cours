@@ -16,3 +16,17 @@ public static void MarkModeration(out int mark)
     mark += 5;
     Console.WriteLine("English mark INSIDE METHOD AFTER increment: {0}", mark);
 }
+
+// Inside Main method
+int addNum;
+int multiplyNum;
+AddAndMultiply(4,5, out addNum, out multiplyNum);
+Console.WriteLine(addNum);
+Console.WriteLine(multiplyNum);
+
+// Outside Main method
+public static void AddAndMultiply(int a, int b, out int added, out int multiplied)
+{
+    added = a + b;
+    multiplied = a * b;
+}
