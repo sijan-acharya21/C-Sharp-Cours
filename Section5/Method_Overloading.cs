@@ -4,7 +4,9 @@
 // Parameters need to be different type of parameter or different number of parameters
 
 // Inside Main method
-
+Add(5,6); // 11
+Add("Hello", "World"); // Hello World
+Add(5.5, 8.3); // 13.8
 
 // Outside Main method
 public static void Add(int x, int y) {
@@ -14,8 +16,10 @@ public static void Add(int x, int y) {
 
 public static void Add(string x, string y) {
   string concatenate = x + " " + y;
-  Consoe.WriteLine(concatenate);
+  Console.WriteLine(concatenate);
 }
 
-public static void Add(double x, double) {
-  double answer
+public static void Add(double x, double y) {
+  double answer = x + y;
+  Console.WriteLine(answer);
+}
