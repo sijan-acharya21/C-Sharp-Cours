@@ -20,4 +20,6 @@ public static void MultiplicationTable(int number)
 Improvements
 For loop need to have the following because the question reads from 2 to 10
 - for (int i = 2; i < 11; i++)
+Could also format the spaces to look good 
+- Console.WriteLine($"{number, 2} X {i,2} = {answer, 2}");
 */
