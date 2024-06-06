@@ -15,3 +15,9 @@ public static void MultiplicationTable(int number)
         Console.WriteLine($"{number} X {i} = {answer}");
     }
 }
+
+/*
+Improvements
+For loop need to have the following because the question reads from 2 to 10
+- for (int i = 2; i < 11; i++)
+*/
