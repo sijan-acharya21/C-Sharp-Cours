@@ -5,12 +5,14 @@
 
 // Inside Main method
 int englishMark; // Unassigned variable
-MarkModeration(out englishMark); // English mark INSIDE method: 5
-Console.WriteLine("English mark AFTER moderation: {0}", englishMark); // English mark after calling function: 5
+MarkModeration(out englishMark); // English mark after moderation
+Console.WriteLine("English mark AFTER calling function: {0}", englishMark);
 
 // Outside Main method
-public static void MarkModeration(out int mark) {
-  mark = 0; // Have to set a value for out parameter
-  mark += 5;
-  Console.WriteLine("English mark INSIDE METHOD: {0}", mark);
+public static void MarkModeration(out int mark)
+{
+    mark = 0;
+    Console.WriteLine("English mark INSIDE METHOD BEFORE increment: {0}", mark);
+    mark += 5;
+    Console.WriteLine("English mark INSIDE METHOD AFTER increment: {0}", mark);
 }
